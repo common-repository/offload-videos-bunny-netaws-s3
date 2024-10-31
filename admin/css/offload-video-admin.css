@@ -1,0 +1,149 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+
+
+
+
+.offload-videos_page_videos #wpbody-content {
+    width: 99%!important;
+    margin-top: 15px;
+}
+
+a.delete_all_button {
+    padding: 10px 20px;
+    background: #2c71ae;
+    color: #fff;
+    text-decoration: none;
+}
+
+th#video_select {
+    width: 20px!important;
+}
+.bsacft-tabs {
+    overflow: hidden;
+    background-color: #f1f1f1;
+    border-bottom: 1px solid #c3c4c7;
+    margin: 0;
+    padding-top: 9px;
+    padding-bottom: 0;
+    line-height: inherit;
+}
+
+.bsacft-tabs button {
+    float: left;
+    border: 1px solid #c3c4c7;
+    border-bottom: none;
+    margin-left: 0.5em;
+    padding: 5px 10px;
+    font-size: 14px;
+    line-height: 1.71428571;
+    font-weight: 600;
+    background: #dcdcde;
+    color: #50575e;
+    text-decoration: none;
+    white-space: nowrap;
+    cursor:pointer;
+}
+
+.bsacft-tabs button:hover {
+    background-color: #fff;
+}
+
+.bsacft-tabs button.active {
+    background: #f0f0f1;
+    color: #000;
+}
+
+.tabcontent {
+    padding: 10px 0px;
+    /*   border: 1px solid #ccc; */
+    border-top: none;
+    height: 300px;
+
+}
+
+#bsacft_about .form-table label,
+#bsacft_about .form-table td {
+    font-size: 16px;
+}
+
+.settings-logo
+{
+    margin-left:160px;
+}
+
+/*lable text*/
+div#label_text label {
+    font-weight: 500;
+    font-size: 16px;
+    float: left;
+    width: 28%;
+    line-height: 2;
+}
+
+
+form#bsacft_key_form input[type="submit"] {
+    background: #135e96;
+    border-color: #135e96;
+    color: #fff;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 13px;
+    line-height: 2.15384615;
+    min-height: 30px;
+    margin: 0;
+    padding: 0 10px;
+    cursor: pointer;
+    border-width: 1px;
+    border-style: solid;
+    -webkit-appearance: none;
+    border-radius: 3px;
+    white-space: nowrap;
+    box-sizing: border-box;
+}
+
+.configuration_success {
+    color: #fff;
+    background: #00800085;
+    padding: 5px 10px;
+    width: 488px;
+}
+
+button.bsacft-uploader-button {
+    background: url(./bsacft-32x32.png) no-repeat;
+    color: #6800bf;
+    border: 1px solid #6800bf;
+    padding: 7px 15px 7px 35px;
+    cursor: pointer;
+    background-size: 20px 20px;
+    background-position: 10px center;
+}
+
+.bsacft_button_for_uploader {
+    position: absolute;
+    left: 51%;
+    top: 0%;
+    margin-top: 15px;
+    display: none;
+}
+
+.media-new-php .bsacft_button_for_uploader,
+.upload-php .bsacft_button_for_uploader {
+    display: block !important;
+}
+
+p.bsacft-warning {
+    color: orange;
+}
+
+.bsacft_img_none,
+.bsacft_btn_none {
+    display: none !important;
+}
+
+.bsacft_img_show,
+.bsacft_btn_show {
+    display: block !important;
+}
